@@ -1,0 +1,50 @@
+html,
+body {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aquamarine;
+}
+
+div.select-difficulty {
+  margin: auto;
+}
+.center {
+  margin: 0 auto;
+}
+button {
+  font-size: 20px;
+  padding: 10px;
+  width: 100px;
+  border-radius: 10px;
+}
+button:hover {
+  border: 1px solid orange;
+}
+
+.grid-item {
+  width: 150px;
+  height: 150px;
+  border: 1px solid orange;
+  background-color: pink;
+  margin: 5px;
+  padding: 5px;
+  display: inline-block;
+}
+
+.open {
+  border: 1px solid orange;
+  background-color: darkblue;
+  color: white;
+}
+.item-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.item-container > div {
+  margin: auto;
+  font-size: 50px;
+}

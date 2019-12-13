@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Memory</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="select-difficulty" class="select-difficulty">
+      <h1>Select Difficulty Level</h1>
+      <table class="center">
+        <tr>
+          <td>
+            <button onclick="setDifficulty('Easy')">
+              Easy
+            </button>
+          </td>
+          <td>
+            <button onclick="setDifficulty('Medium')">
+              Medium
+            </button>
+          </td>
+          <td>
+            <button onclick="setDifficulty('Hard')">
+              Hard
+            </button>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="game-grid" id="game-grid">
+      <h1>Match Cards</h1>
+      <div id="grids"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
